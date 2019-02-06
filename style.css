@@ -76,14 +76,21 @@ table{
 }
 
 img {
-  max-width: 50%;
-  max-height: 50%;
+  height: 200px;
+  width: 200px;
+  /*max-width: 50%;*/
+  /*max-height: 50%;*/
 }
 
-.story img {
-  width: 50%;
-  height: 50%;
+img.resize {
+  width:100px;
+  height:140px;
 }
+
+/*.story img {*/
+  /*width: 50%;*/
+  /*height: 50%;*/
+/*}*/
 
 ul {
   list-style: none;
